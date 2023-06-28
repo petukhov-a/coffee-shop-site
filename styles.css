@@ -1,0 +1,114 @@
+/* Common Styles */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Merienda', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+/* End of Common Styles */
+
+/* Section 1 */
+.section-1 {
+    width: 100%;
+    height: 80vh;
+    background: url('images/desk.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    width: 100%;
+    height: 8rem;
+    margin-bottom: 10rem;
+}
+
+.nav-list {
+    width: 100%;
+    height: 100%;
+    margin-left: 10rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+.nav-list-item {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-left: 4rem;
+    text-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+}
+
+.section-1-heading {
+    font-size: 4rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+}
+
+.separator {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+.separator #three-coffee-beans {
+    fill: #fff;
+}
+
+.separator::before, .separator::after {
+    content: '';
+    width: 6rem;
+    height: 0.1rem;
+    background-color: #fff;
+    position: absolute;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.25);
+}
+
+.separator::before {
+    top: 50%;
+    left: -8.5rem;
+}
+
+.separator::after {
+    top: 50%;
+    right: -8.5rem;
+}
+
+.section-1-paragraph {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    line-height: 2;
+    margin-bottom: 2rem;
+}
+
+.section-1-more-btn {
+    display: block;
+    width: 12rem;
+    height: 3rem;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 1.4rem;
+    background-color: transparent;
+    border: 1px solid #FFF;
+    border-radius: 3px;
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.section-1-more-btn:hover {
+    transform: scale(1.05);
+}
+
+/* End of Section 1 */
